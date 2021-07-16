@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="QR_Code_Generator_2._0.MainPage"
+    xmlns:zxing="clr-namespace:ZXing.Net.Mobile.Forms;assembly=ZXing.Net.Mobile.Forms"  
+             xmlns:zxingcommon="clr-namespace:ZXing.Common;assembly=zxing.portable">
+    
+        <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="QR Generator!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <zxing:ZXingBarcodeImageView 
+            x:Name="bCodeChange"
+            BarcodeValue="Welcome"
+         
+            BarcodeFormat="QR_CODE"
+            WidthRequest="450"
+                                     
+            HeightRequest="450">
+            
+            <zxing:ZXingBarcodeImageView.BarcodeOptions>
+                <zxingcommon:EncodingOptions 
+                Height="450"                         
+                Width="450"/>
+
+                
+            </zxing:ZXingBarcodeImageView.BarcodeOptions>
+          
+   
+           
+        </zxing:ZXingBarcodeImageView>
+        
+
+        <Entry x:Name="entry" Text="Type code to generate" />
+        
+        
+        <Button Text="Generate!"
+        Font="Large"
+        BorderWidth="1"
+        HorizontalOptions="Center"
+        VerticalOptions="CenterAndExpand"
+        Clicked="Button_Clicked"
+        />
+        
+
+
+    </StackLayout>
+    
+
+</ContentPage>
