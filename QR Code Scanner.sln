@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QR Code Scanner.Android", "..\source\repos\QR Code Scanner\QR Code Scanner\QR Code Scanner.Android\QR Code Scanner.Android.csproj", "{30E7A1AC-DBB7-4C2F-833A-1CF53A7B056B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QR Code Scanner.Android", "QR Code Scanner\QR Code Scanner.Android\QR Code Scanner.Android.csproj", "{30E7A1AC-DBB7-4C2F-833A-1CF53A7B056B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QR Code Scanner.iOS", "..\source\repos\QR Code Scanner\QR Code Scanner\QR Code Scanner.iOS\QR Code Scanner.iOS.csproj", "{FD7C82AA-C218-4114-9A48-EAFCADC08949}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QR Code Scanner.iOS", "QR Code Scanner\QR Code Scanner.iOS\QR Code Scanner.iOS.csproj", "{FD7C82AA-C218-4114-9A48-EAFCADC08949}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QR Code Scanner", "..\source\repos\QR Code Scanner\QR Code Scanner\QR Code Scanner\QR Code Scanner.csproj", "{16B04B7F-3872-44A0-B718-6647FEE265A7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QR Code Scanner", "QR Code Scanner\QR Code Scanner\QR Code Scanner.csproj", "{16B04B7F-3872-44A0-B718-6647FEE265A7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
